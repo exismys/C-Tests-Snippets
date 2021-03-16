@@ -20,7 +20,7 @@ int main(){
 
 	// Initailizing str5
 	char str5[10] = "SOLOLEARN1";
-	printf("str5: %s\n", str5);
+	printf("str5: %s\n", str5); // SOLOLEARN1
 
 	// Initializing after declaring array of char
 	char str6[10];
@@ -34,7 +34,7 @@ int main(){
 	// printf("str8: %c\n", str8); Not valid, %c expects argument of type of int where as str8 is of type char*
 	printf("First character of str8: %c\n", *str8); // Works perfectly printing "First character of str8: S"
 	// As str8 is a pointer, it stores the address of memory where "SOLOLEARN" is stored, String literal "SOLOLEARN" itself behaves as an address
-	printf("First character of str8: %c\n", *"SOLOLEARN");
+	printf("First character of str8: %c\n", *"SOLOLEARN"); // S
 
 	// Incrementing str8 twice
 	str8++;
@@ -45,6 +45,6 @@ int main(){
 	// We can also initialize after declaring
 	char* str9;
 	str9 = "SOLOLEARN";
-	printf("str9: %s\n", str9);
+	printf("str9: %s\n", str9); // SOLOLEARN
 	return 0;
 }
